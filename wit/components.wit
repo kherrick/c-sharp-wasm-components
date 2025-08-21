@@ -1,0 +1,9 @@
+package components:c-sharp-wasm-components@0.1.0;
+
+interface utilities {
+  add: func(x: u32, y: u32) -> u32;
+}
+
+world components {
+  export utilities;
+}
